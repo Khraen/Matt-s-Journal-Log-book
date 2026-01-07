@@ -16,7 +16,6 @@ Note: UI is tron inspired
 ## ✨ Features
 * **Hierarchical Organization:** Create multiple journals to separate different parts of your life.
 * **Secure Entries:** Password protection to keep your thoughts private.
-* **Native Experience:** Built specifically for macOS.
 
 ## 🛠️ Tech Stack
 * **Language:** C++
@@ -24,7 +23,7 @@ Note: UI is tron inspired
 * **Data Persistence:** JSON objects within Journal.dat file stored in application support folder.
 
 ## 📥 Download & Installation
-1.  Navigate to the **[Releases](insert-link-to-your-release-tab-here)** section of this repository.
+1.  Navigate to the **[Releases](https://github.com/Khraen/Matt-s-Journal-Log-book/releases/tag/v.0.1.0)** section of this repository.
 2.  Download the latest version for macOS.
 
 ## ⚠️ Important Notes

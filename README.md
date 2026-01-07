@@ -27,8 +27,8 @@ Note: UI is tron inspired
 * **Data Persistence:** Encrypted JSON stored locally.
 
 ## 📥 Download & Installation
-1.  Navigate to the **[Releases](https://github.com/Khraen/Matt-s-Journal-Log-book/releases/tag/v.0.1.0)** section of this repository.
-2.  Download the latest version for macOS.
+1.  click here **[clickme](https://github.com/Khraen/Matt-s-Journal-Log-book/releases/tag/v.0.1.0)**.
+2.  Download the version for macOS.
 
 ## ⚠️ Important Notes
 * **Platform Support:** This app was developed on macOS and is currently the **only** supported platform.

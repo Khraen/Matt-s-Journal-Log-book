@@ -20,7 +20,11 @@ Note: UI is tron inspired
 ## 🛠️ Tech Stack
 * **Language:** C++
 * **Framework:** Qt
-* **Data Persistence:** JSON objects within Journal.dat file stored in application support folder.
+* **Security:** OpenSSL
+  * Encryption: AES-256-CBC
+  * Key Derivation: PBKDF2 with HMAC-SHA256 (for secure password handling)
+  * Entropy: Cryptographically secure random salt and IV generation
+* **Data Persistence:** Encrypted JSON stored locally.
 
 ## 📥 Download & Installation
 1.  Navigate to the **[Releases](https://github.com/Khraen/Matt-s-Journal-Log-book/releases/tag/v.0.1.0)** section of this repository.

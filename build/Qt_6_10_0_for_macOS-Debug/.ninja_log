@@ -1,0 +1,20 @@
+# ninja log v6
+2	2862	1769225360274283067	Diary_autogen/timestamp	b3cd6815e322f827
+2	2862	1769225360274283067	Diary_autogen/mocs_compilation.cpp	b3cd6815e322f827
+2	2862	1769225360274283067	/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/timestamp	b3cd6815e322f827
+2	2862	1769225360274283067	/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/mocs_compilation.cpp	b3cd6815e322f827
+2869	4382	1769225360311100851	CMakeFiles/Diary.dir/CryptoUtils.cpp.o	b38e9bc049d98ff0
+2869	6033	1769225360310827499	CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o	413314df0f932764
+2869	6155	1769225360311511375	CMakeFiles/Diary.dir/nameprompt.cpp.o	e9b3f267c40c4a05
+2869	6387	1769225360310615938	CMakeFiles/Diary.dir/main.cpp.o	d2d400e92854044e
+2868	6467	1769225360310269562	CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o	ce1930c561307bfd
+2869	7762	1769225360311307434	CMakeFiles/Diary.dir/journal_system.cpp.o	787a5d83ce8761ab
+7762	8056	1769225365204188313	Diary.app/Contents/MacOS/Diary	26a253ee29f0976e
+25	124	1769226649636565078	Diary_autogen/timestamp	b3cd6815e322f827
+25	124	1769226649636565078	Diary_autogen/mocs_compilation.cpp	b3cd6815e322f827
+25	124	1769226649636565078	/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/timestamp	b3cd6815e322f827
+25	124	1769226649636565078	/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/mocs_compilation.cpp	b3cd6815e322f827
+125	3373	1769226649736504451	CMakeFiles/Diary.dir/nameprompt.cpp.o	e9b3f267c40c4a05
+125	3485	1769226649735907371	CMakeFiles/Diary.dir/main.cpp.o	d2d400e92854044e
+125	4807	1769226649736232045	CMakeFiles/Diary.dir/journal_system.cpp.o	787a5d83ce8761ab
+4808	5210	1769226654419230466	Diary.app/Contents/MacOS/Diary	26a253ee29f0976e

@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: Diary
-# Configurations: Release
+# Configurations: Debug
 # =============================================================================
 
 #############################################
@@ -24,7 +24,7 @@ ninja_required_version = 1.5
 #############################################
 # Set configuration variable for custom commands.
 
-CONFIGURATION = Release
+CONFIGURATION = Debug
 # =============================================================================
 # Include auxiliary files.
 
@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/
+cmake_ninja_workdir = /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target Diary
 
@@ -49,61 +49,61 @@ cmake_ninja_workdir = /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_fo
 
 build cmake_object_order_depends_target_Diary: phony || Diary_autogen Diary_autogen/mocs_compilation.cpp Diary_autogen/timestamp Diary_autogen_timestamp_deps
 
-build CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir/Diary_autogen
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
   TARGET_PDB = Diary.pdb
 
-build CMakeFiles/Diary.dir/main.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/main.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/main.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/main.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/main.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
   TARGET_PDB = Diary.pdb
 
-build CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/borderpulseoverlay.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/borderpulseoverlay.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
   TARGET_PDB = Diary.pdb
 
-build CMakeFiles/Diary.dir/CryptoUtils.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/CryptoUtils.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/CryptoUtils.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/CryptoUtils.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/CryptoUtils.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
   TARGET_PDB = Diary.pdb
 
-build CMakeFiles/Diary.dir/journal_system.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/journal_system.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/journal_system.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/journal_system.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/journal_system.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
   TARGET_PDB = Diary.pdb
 
-build CMakeFiles/Diary.dir/nameprompt.cpp.o: CXX_COMPILER__Diary_unscanned_Release /Users/matthewholguin/Qt_projects/Diary/nameprompt.cpp || cmake_object_order_depends_target_Diary
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB
+build CMakeFiles/Diary.dir/nameprompt.cpp.o: CXX_COMPILER__Diary_unscanned_Debug /Users/matthewholguin/Qt_projects/Diary/nameprompt.cpp || cmake_object_order_depends_target_Diary
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/Diary.dir/nameprompt.cpp.o.d
-  FLAGS = -O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
-  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics
+  INCLUDES = -I/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Headers -iframework /Users/matthewholguin/Qt/6.10.0/macos/lib -isystem /Users/matthewholguin/Qt/6.10.0/macos/mkspecs/macx-clang -isystem /Users/matthewholguin/Qt/6.10.0/macos/include -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Headers -isystem /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Headers -isystem /usr/local/Cellar/openssl@3/3.6.0/include
   OBJECT_DIR = CMakeFiles/Diary.dir
   OBJECT_FILE_DIR = CMakeFiles/Diary.dir
   TARGET_COMPILE_PDB = CMakeFiles/Diary.dir/
@@ -117,8 +117,8 @@ build CMakeFiles/Diary.dir/nameprompt.cpp.o: CXX_COMPILER__Diary_unscanned_Relea
 #############################################
 # Link the executable Diary.app/Contents/MacOS/Diary
 
-build Diary.app/Contents/MacOS/Diary: CXX_EXECUTABLE_LINKER__Diary_Release CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o CMakeFiles/Diary.dir/main.cpp.o CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o CMakeFiles/Diary.dir/CryptoUtils.cpp.o CMakeFiles/Diary.dir/journal_system.cpp.o CMakeFiles/Diary.dir/nameprompt.cpp.o | /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib /usr/local/Cellar/openssl@3/3.6.0/lib/libssl.dylib /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib || Diary_autogen Diary_autogen_timestamp_deps
-  FLAGS = -O3 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7
+build Diary.app/Contents/MacOS/Diary: CXX_EXECUTABLE_LINKER__Diary_Debug CMakeFiles/Diary.dir/Diary_autogen/mocs_compilation.cpp.o CMakeFiles/Diary.dir/main.cpp.o CMakeFiles/Diary.dir/borderpulseoverlay.cpp.o CMakeFiles/Diary.dir/CryptoUtils.cpp.o CMakeFiles/Diary.dir/journal_system.cpp.o CMakeFiles/Diary.dir/nameprompt.cpp.o | /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib /usr/local/Cellar/openssl@3/3.6.0/lib/libssl.dylib /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib || Diary_autogen Diary_autogen_timestamp_deps
+  FLAGS = -DQT_QML_DEBUG -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7
   LINK_LIBRARIES = -Wl,-rpath,/Users/matthewholguin/Qt/6.10.0/macos/lib  /Users/matthewholguin/Qt/6.10.0/macos/lib/QtWidgets.framework/Versions/A/QtWidgets  /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib  /usr/local/Cellar/openssl@3/3.6.0/lib/libssl.dylib  /Users/matthewholguin/Qt/6.10.0/macos/lib/QtGui.framework/Versions/A/QtGui  -framework AppKit  -framework OpenGL  -framework ImageIO  -framework Metal  /Users/matthewholguin/Qt/6.10.0/macos/lib/QtCore.framework/Versions/A/QtCore  -framework IOKit  -framework DiskArbitration  -framework UniformTypeIdentifiers  /usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib
   LINK_PATH = -F/Users/matthewholguin/Qt/6.10.0/macos/lib
   OBJECT_DIR = CMakeFiles/Diary.dir
@@ -133,7 +133,7 @@ build Diary.app/Contents/MacOS/Diary: CXX_EXECUTABLE_LINKER__Diary_Release CMake
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release && /usr/local/Cellar/cmake/3.31.6/bin/ccmake -S/Users/matthewholguin/Qt_projects/Diary -B/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release
+  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug && /usr/local/Cellar/cmake/3.31.6/bin/ccmake -S/Users/matthewholguin/Qt_projects/Diary -B/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -145,7 +145,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release && /usr/local/Cellar/cmake/3.31.6/bin/cmake --regenerate-during-build -S/Users/matthewholguin/Qt_projects/Diary -B/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release
+  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug && /usr/local/Cellar/cmake/3.31.6/bin/cmake --regenerate-during-build -S/Users/matthewholguin/Qt_projects/Diary -B/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -169,9 +169,9 @@ build Diary_autogen: phony CMakeFiles/Diary_autogen Diary_autogen/include/ui_jou
 # Custom command for Diary_autogen/timestamp
 
 build Diary_autogen/timestamp Diary_autogen/mocs_compilation.cpp | ${cmake_ninja_workdir}Diary_autogen/timestamp ${cmake_ninja_workdir}Diary_autogen/mocs_compilation.cpp: CUSTOM_COMMAND /Users/matthewholguin/Qt/6.10.0/macos/libexec/moc /Users/matthewholguin/Qt/6.10.0/macos/libexec/uic || Diary_autogen_timestamp_deps
-  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E cmake_autogen /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/Diary_autogen.dir/AutogenInfo.json Release && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E touch /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/timestamp && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/matthewholguin/Qt_projects/Diary /Users/matthewholguin/Qt_projects/Diary /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/deps /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/d/580868c63bf6341dfd7272a2414adb4ec85e27e4407595c1204011d6ca9f442f.d
+  COMMAND = cd /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E cmake_autogen /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Diary_autogen.dir/AutogenInfo.json Debug && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E touch /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/timestamp && /usr/local/Cellar/cmake/3.31.6/bin/cmake -E cmake_transform_depfile Ninja gccdepfile /Users/matthewholguin/Qt_projects/Diary /Users/matthewholguin/Qt_projects/Diary /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/deps /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/d/02853651c0c0943f11087b94f4f401add950a69437a41306f4e7ce8e320701af.d
   DESC = Automatic MOC and UIC for target Diary
-  depfile = CMakeFiles/d/580868c63bf6341dfd7272a2414adb4ec85e27e4407595c1204011d6ca9f442f.d
+  depfile = CMakeFiles/d/02853651c0c0943f11087b94f4f401add950a69437a41306f4e7ce8e320701af.d
   deps = gcc
   restat = 1
 
@@ -192,7 +192,7 @@ build Diary: phony Diary.app/Contents/MacOS/Diary
 # =============================================================================
 
 #############################################
-# Folder: /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release
+# Folder: /Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug
 
 build all: phony Diary.app/Contents/MacOS/Diary
 
@@ -217,7 +217,7 @@ build .qtc/package-manager/auto-setup.cmake .qtc/package-manager/maintenance_too
 # Clean additional files.
 
 build CMakeFiles/clean.additional: CLEAN_ADDITIONAL
-  CONFIG = Release
+  CONFIG = Debug
 
 
 #############################################

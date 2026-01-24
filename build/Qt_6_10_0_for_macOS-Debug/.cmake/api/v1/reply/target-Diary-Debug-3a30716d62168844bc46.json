@@ -23,7 +23,7 @@
 			"CMakeLists.txt",
 			"/Users/matthewholguin/Qt/6.10.0/macos/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"/Users/matthewholguin/Qt/6.10.0/macos/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
-			"build/Qt_6_10_0_for_macOS-Release/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"build/Qt_6_10_0_for_macOS-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 			"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
 			"/Users/matthewholguin/Qt/6.10.0/macos/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"/Users/matthewholguin/Qt/6.10.0/macos/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
@@ -152,7 +152,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-O3 -DNDEBUG -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics"
+					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.0.sdk -mmacosx-version-min=15.7 -fcolor-diagnostics"
 				}
 			],
 			"defines" : 
@@ -164,10 +164,6 @@
 				{
 					"backtrace" : 2,
 					"define" : "QT_GUI_LIB"
-				},
-				{
-					"backtrace" : 2,
-					"define" : "QT_NO_DEBUG"
 				},
 				{
 					"backtrace" : 2,
@@ -196,7 +192,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include"
+					"path" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include"
 				},
 				{
 					"backtrace" : 2,
@@ -226,7 +222,7 @@
 				{
 					"backtrace" : 2,
 					"isSystem" : true,
-					"path" : "/usr/local/include"
+					"path" : "/usr/local/Cellar/openssl@3/3.6.0/include"
 				}
 			],
 			"language" : "CXX",
@@ -266,7 +262,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-O3 -DNDEBUG",
+				"fragment" : "-DQT_QML_DEBUG -g",
 				"role" : "flags"
 			},
 			{
@@ -288,12 +284,12 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libcrypto.dylib",
+				"fragment" : "/usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libssl.dylib",
+				"fragment" : "/usr/local/Cellar/openssl@3/3.6.0/lib/libssl.dylib",
 				"role" : "libraries"
 			},
 			{
@@ -343,7 +339,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "/usr/local/lib/libcrypto.dylib",
+				"fragment" : "/usr/local/Cellar/openssl@3/3.6.0/lib/libcrypto.dylib",
 				"role" : "libraries"
 			}
 		],
@@ -413,7 +409,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/Diary_autogen/mocs_compilation.cpp",
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -489,25 +485,25 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include/ui_journal_system.h",
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include/ui_journal_system.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include/ui_nameprompt.h",
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include/ui_nameprompt.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/Diary_autogen/timestamp",
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/timestamp",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/Diary_autogen/timestamp.rule",
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/timestamp.rule",
 			"sourceGroupIndex" : 4
 		}
 	],

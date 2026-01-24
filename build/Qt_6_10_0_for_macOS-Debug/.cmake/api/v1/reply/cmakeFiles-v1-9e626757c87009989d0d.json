@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/.qtc/package-manager/auto-setup.cmake"
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeSystem.cmake"
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -29,7 +29,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/.qtc/package-manager/maintenance_tool_provider.cmake"
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/.qtc/package-manager/maintenance_tool_provider.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -288,7 +288,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -432,7 +432,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
+			"path" : "build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -2073,21 +2073,6 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/FindPkgConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/FindPackageMessage.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
 			"path" : "/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
@@ -2104,7 +2089,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release",
+		"build" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug",
 		"source" : "/Users/matthewholguin/Qt_projects/Diary"
 	},
 	"version" : 

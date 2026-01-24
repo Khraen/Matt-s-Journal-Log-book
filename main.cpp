@@ -9,6 +9,8 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     JournalSystem w;
+    // ADD THESE LINES:
+    QCoreApplication::setApplicationName("Diary");
     w.showFullScreen();
 
 

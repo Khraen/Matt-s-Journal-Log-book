@@ -1,18 +1,18 @@
 {
-	"BUILD_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen",
-	"CMAKE_BINARY_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release",
-	"CMAKE_CURRENT_BINARY_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release",
+	"BUILD_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen",
+	"CMAKE_BINARY_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug",
 	"CMAKE_CURRENT_SOURCE_DIR" : "/Users/matthewholguin/Qt_projects/Diary",
 	"CMAKE_EXECUTABLE" : "/usr/local/Cellar/cmake/3.31.6/bin/cmake",
 	"CMAKE_LIST_FILES" : 
 	[
 		"/Users/matthewholguin/Qt_projects/Diary/CMakeLists.txt",
-		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/.qtc/package-manager/auto-setup.cmake",
+		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/.qtc/package-manager/auto-setup.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineSystem.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystem.cmake.in",
-		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeSystem.cmake",
+		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeSystem.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeNinjaFindMake.cmake",
-		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/.qtc/package-manager/maintenance_tool_provider.cmake",
+		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Platform/Darwin-Initialize.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake",
@@ -64,7 +64,7 @@
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeFindBinUtils.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeGenericSystem.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeInitializeConfigs.cmake",
@@ -93,7 +93,7 @@
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/FeatureTesting.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXCompiler.cmake.in",
-		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
+		"/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/3.31.6/CMakeCXXCompiler.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/Linker/AppleClang-CXX.cmake",
@@ -489,7 +489,7 @@
 	],
 	"CMAKE_SOURCE_DIR" : "/Users/matthewholguin/Qt_projects/Diary",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/deps",
+	"DEP_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "Diary_autogen/timestamp",
 	"HEADERS" : 
 	[
@@ -531,9 +531,9 @@
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/include",
-	"MOC_COMPILATION_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/mocs_compilation.cpp",
-	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG", "QT_WIDGETS_LIB" ],
+	"INCLUDE_DIR" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/include",
+	"MOC_COMPILATION_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_WIDGETS_LIB" ],
 	"MOC_DEPEND_FILTERS" : 
 	[
 		[
@@ -577,17 +577,17 @@
 		"-c",
 		"/usr/local/Cellar/cmake/3.31.6/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/Diary_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/Diary_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 4,
-	"PARSE_CACHE_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/Diary_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Diary_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "/Users/matthewholguin/Qt/6.10.0/macos/libexec/moc",
 	"QT_UIC_EXECUTABLE" : "/Users/matthewholguin/Qt/6.10.0/macos/libexec/uic",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 10,
-	"SETTINGS_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Release/CMakeFiles/Diary_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "/Users/matthewholguin/Qt_projects/Diary/build/Qt_6_10_0_for_macOS-Debug/CMakeFiles/Diary_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[ "/Users/matthewholguin/Qt_projects/Diary/CryptoUtils.cpp", "MU", null ],
